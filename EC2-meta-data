@@ -1,4 +1,5 @@
-#!/bin/bash
-sudo yum update -y
-sudo yum install -y httpd
-sudo yum install -y git
+shebang 
+#!/bin/bash   -->  ( to identify Linux command )
+yum install httpd -y --> to install webserver
+systemctl enable httpd --> to enable
+systemctl start httpd --> to start (active state)
